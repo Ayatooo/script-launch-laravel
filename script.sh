@@ -7,8 +7,8 @@ if [ -z "$1" ]; then
 fi
 
 # Cloner le projet depuis l'URL GitHub fournie
-git clone "$1" myproject
-cd myproject
+git clone "$1" real-backend
+cd real-backend
 
 # Vérifier les dépendances système
 if ! command -v php >/dev/null 2>&1; then
