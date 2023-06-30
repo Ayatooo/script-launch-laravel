@@ -53,7 +53,3 @@ npm install
 
 # Compiler les assets
 npm run dev
-
-# Afficher un message de fin
-echo "Le projet a été installé et démarré avec succès."
-
